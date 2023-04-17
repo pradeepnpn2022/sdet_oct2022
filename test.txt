@@ -1,4 +1,8 @@
 THis is for testing
 HI-Radha
+<<<<<<< HEAD
 Hi Adding new line...
 Adding another line
+=======
+This is another line....
+>>>>>>> 07c93c2 (Added a new line.)
