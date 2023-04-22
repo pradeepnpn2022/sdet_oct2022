@@ -21,6 +21,7 @@ public class UploadFileTest2
 		robot.keyPress(KeyEvent.VK_CONTROL);
 		robot.keyPress(KeyEvent.VK_V);
 		robot.keyRelease(KeyEvent.VK_V);
+		Thread.sleep(3000);
 		robot.keyRelease(KeyEvent.VK_CONTROL);
 		Thread.sleep(Duration.ofSeconds(5));
 		robot.keyPress(KeyEvent.VK_ENTER);
