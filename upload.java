@@ -27,5 +27,7 @@ public class UploadFileTest2
 		robot.keyPress(KeyEvent.VK_ENTER);
 		robot.keyRelease(KeyEvent.VK_ENTER);
 		Thread.sleep(Duration.ofSeconds(5));
+		System.out.println("The path is :: " + path);
+		
 	}
 }
